@@ -9,8 +9,9 @@ import OpOutlook
 class SAP:
     server = "147.128.98.27"
     database = "ESS_NJ_LMDM_MD"
-    user = "LMDM"
-    password = "NH20150929"
+    user = ""
+    password = ""
+    #make security info invisible
 
     def __init__(self, SAPSystem):
         if os.path.exists(r"C:\Python 3.7.1\SAPClassLog.txt"):
